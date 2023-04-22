@@ -2,6 +2,6 @@
 
 //my solution
 
-function toUpperCase(str){
-   return str.makeUpperCase();
+function makeUpperCase(str){
+   return str.toUpperCase();
 }
