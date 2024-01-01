@@ -4,7 +4,7 @@
 
 // Note: Make sure you return the correct message with correct spaces and punctuation.
 
-// my solution
+// my solution 
 
 function cookie(x){
     if(typeof x == 'string'){
@@ -15,3 +15,5 @@ function cookie(x){
      return "Who ate the last cookie? It was the dog!"
    }
  }
+
+ 
