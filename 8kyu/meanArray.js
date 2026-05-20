@@ -29,3 +29,5 @@ function getAverage(grades){
 return Math.floor(grades.reduce((acc, currentValue) => acc + currentValue,0) / grades.length)
 }
 }
+
+//done without using AI
