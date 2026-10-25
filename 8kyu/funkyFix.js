@@ -6,3 +6,5 @@
 // my solution
 
 const addFive = (num) => { return num + 5; }
+
+//easy
