@@ -1,16 +1,28 @@
-function fizzBuzz(n) {
-  for (let i = 1; i <= n; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-      console.log("FizzBuzz");
-    } else if (i % 3 === 0) {
-      console.log("Fizz");
-    } else if (i % 5 === 0) {
-      console.log("Buzz");
-    } else {
-      console.log("solution =", i);
-    }
-  }
+// function fizzBuzz(n) {
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("Buzz");
+//     } else {
+//       console.log("solution =", i);
+//     }
+//   }
+// }
+
+//refactored version
+function fizzBuzz(n){
+   for (let i = 1; i <= n; i++) {
+     i % 3 === 0 && i % 5 === 0 ? console.log("FizzBuzz") 
+     : i % 3 === 0 ? console.log("Fizz") 
+     : i % 5 === 0 ? console.log("Buzz")
+     : console.log(i)
+   }
 }
+
+fizzBuzz(32);
 
 fizzBuzz(32);
 
