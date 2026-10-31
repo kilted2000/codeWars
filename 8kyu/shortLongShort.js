@@ -14,5 +14,4 @@ function shortLongShort(a, b) {
 
 shortLongShort('hello', 'bob')
 
-//In JavaScript, strings have a .length property too, not just arrays. It returns the number of characters (technically UTF-16 code units) in the string:
-//.length counts UTF-16 code units, not visible characters, so something like an emoji ////('😀'.length === 2) can surprise you.
+//In JavaScript strings have a .length property too not just arrays. 
