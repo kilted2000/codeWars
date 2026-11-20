@@ -1,0 +1,9 @@
+// I would like to be able to pass an array with two elements to my function to swap the values. However it appears that the values aren't changing.
+
+// Can you figure out what's wrong here?
+
+function swapValues(args) {
+ return args.reverse()
+}
+
+//bad day so I wanted to do a super easy kata. When in doubt method it out.
