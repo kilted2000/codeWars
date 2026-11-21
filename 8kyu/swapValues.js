@@ -7,3 +7,6 @@ function swapValues(args) {
 }
 
 //bad day so I wanted to do a super easy kata. When in doubt method it out.
+
+//single line solution for funsies
+//let swapValues = (args) => {return args.reverse()};
